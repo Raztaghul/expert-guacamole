@@ -1,0 +1,14 @@
+{
+  "name": "b64b5562b31d5f72",
+  "main": "b64b5562b31d5f72@260.js",
+  "version": "260.0.0",
+  "homepage": "https://observablehq.com/d/b64b5562b31d5f72",
+  "author": {
+    "name": "Paul.G",
+    "url": "https://observablehq.com/@paulgg-code"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "3c39a5793f3203c3",
+  "main": "3c39a5793f3203c3@386.js",
+  "version": "386.0.0",
+  "homepage": "https://observablehq.com/d/3c39a5793f3203c3",
+  "author": {
+    "name": "Paul.G",
+    "url": "https://observablehq.com/@paulgg-code"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

@@ -1,0 +1,189 @@
+{"nodes":[
+{"id": "P-500","group": 1,"targets" : ["President", "Top Management", "LMS Leader", "LMS Team","Managers", "Employees"]},
+{"id": "President","group": 1,"targets" : []},
+{"id": "Top Management","group": 1,"targets" : []},
+{"id": "LMS Leader","group": 1,"targets" : []},
+{"id": "LMS Team","group": 1,"targets" : []},
+{"id": "Managers","group": 1,"targets" : []},
+{"id": "Employees","group": 1,"targets" : []},
+
+{"id": "P-610","group": 2,"targets" : ["Laboratory Manager", "Operation Manager","LMS Team, LMS Leader", "Maintenance Manager"]},
+{"id": "Laboratory Manager","group": 2,"targets" : []},
+{"id": "Operation Manager","group": 2,"targets" : []},
+{"id": "Maintenance Manager","group": 2,"targets" : []},
+
+{"id": "P-620","group": 2,"targets" : ["LMS Team","HR Manager", "LMS Leader", "Managers", "Employee Manager", "Employees"]},
+{"id": "HR Manager","group": 2,"targets" : []},
+{"id": "Employee Manager","group": 2,"targets" : []},
+
+{"id": "P-645","group": 3,"targets" : ["Quality Manager","LMS Team", "Equipement Coordinator"]},
+{"id": "Quality Manager","group": 3,"targets" : []},
+{"id": "Equipement Coordinator","group": 3,"targets" : []},
+
+{"id": "P-660","group": 4,"targets" : ["LMS Team", "Materials Manager", "Quality Manager", "Purshasing Manager", "Purshasing Department", "Department Manager", "Receiving Department", "Business Line Department", "President"]},
+{"id": "Materials Manager","group": 4,"targets" : []},
+{"id": "Purshasing Manager","group": 4,"targets" : []},
+{"id": "Purshasing Department","group": 4,"targets" : []},
+{"id": "Department Manager","group": 4,"targets" : []},
+{"id": "Receiving Department","group": 4,"targets" : []},
+{"id": "Business Line Department","group": 4,"targets" : []},
+
+{"id": "P-710","group": 5,"targets" : ["Sales and Marketing Manager","Customer Service","LMS Team", "Representative", "Project Manager"]},
+{"id": "Sales and Marketing Manager","group": 5,"targets" : []},
+{"id": "Customer Service","group": 5,"targets" : []},
+{"id": "Representative","group": 5,"targets" : []},
+{"id": "Project Manager","group": 5,"targets" : []},
+
+{"id": "P-720","group": 6,"targets" : ["Operation Manager","LMS Team", "Project Manager"]},
+
+{"id": "P-740","group": 7,"targets" : ["Operation Manager","LMS Team", "Delegate", "Quality Manager"]},
+{"id": "Delegate","group": 7,"targets" : []},
+
+{"id": "P-755","group": 8,"targets" : ["Quality Manager","LMS Team","Laboratoy Inspector"]},
+{"id": "Laboratoy Inspector","group": 8,"targets" : []},
+
+{"id": "P-780","group": 9,"targets" : ["Quality Manager","LMS Team", "Customer"]},
+{"id": "Customer","group": 9,"targets" : []},
+
+{"id": "P-790","group": 10,"targets" : ["Quality Manager","LMS Team","Customer Service","Employees","Project Manager"]},
+
+{"id": "P-820","group": 11,"targets" : ["Quality Manager","LMS Team","Document Control Coordinator","Employees", "LMS Leader"]},
+{"id": "Document Control Coordinator","group": 11,"targets" : []},
+
+{"id": "P-850","group": 12,"targets" : ["LMS Team","LMS Leader"]},
+
+{"id": "P-860","group": 13,"targets" : ["Quality Manager","LMS Team","LMS Leader","Sales and Marketing Manager","Account Manager","Customer Service","Project Manager"]},
+{"id": "Account Manager","group": 13,"targets" : []},
+
+{"id": "P-870","group": 14,"targets" : ["Quality Manager","LMS Team","Employees","Managers","Corrective Action Coordinator"]},
+{"id": "Corrective Action Coordinator","group": 14,"targets" : []},
+
+{"id": "P-880","group": 15,"targets" : ["LMS Team","President","COO","LMS Leader","Audit Coordinator","Lead Auditor","Audit Team","Management Person","Employees","Auditor"]},
+{"id": "COO","group": 15,"targets" : []},
+{"id": "Audit Coordinator","group": 15,"targets" : []},
+{"id": "Audit Team","group": 15,"targets" : []},
+{"id": "Lead Auditor","group": 15,"targets" : []},
+{"id": "Management Person","group": 15,"targets" : []},
+{"id": "Auditor","group": 15,"targets" : []},
+
+{"id": "P-890","group": 16,"targets" : ["President","Top Management","HR Manager","Manufacturing Manager","Quality Manager","LMS Team","LMS Leader","Auditor","Delegate"]},
+{"id": "Manufacturing Manager","group": 16,"targets" : []}
+
+],
+
+
+"links":[
+
+
+{"source":"P-500","target":"President","value":1},
+{"source":"P-500","target":"Top Management","value":1},
+{"source":"P-500","target":"LMS Leader","value":1},
+{"source":"P-500","target":"LMS Team","value":1},
+{"source":"P-500","target":"Managers","value":1},
+{"source":"P-500","target":"Employees","value":1},
+
+{"source":"P-610","target":"Laboratory Manager","value":1},
+{"source":"P-610","target":"Operation Manager","value":1},
+{"source":"P-610","target":"LMS Leader","value":1},
+{"source":"P-610","target":"LMS Team","value":1},
+{"source":"P-610","target":"Maintenance Manager","value":1},
+
+{"source":"P-620","target":"LMS Team","value":1},
+{"source":"P-620","target":"HR Manager","value":1},
+{"source":"P-620","target":"LMS Leader","value":1},
+{"source":"P-620","target":"Managers","value":1},
+{"source":"P-620","target":"Employee Manager","value":1},
+{"source":"P-620","target":"Employees","value":1},
+
+{"source":"P-645","target":"Quality Manager","value":1},
+{"source":"P-645","target":"LMS Team","value":1},
+{"source":"P-645","target":"Equipement Coordinator","value":1},
+
+{"source":"P-660","target":"LMS Team","value":1},
+{"source":"P-660","target":"Materials Manager","value":1},
+{"source":"P-660","target":"Quality Manager","value":1},
+{"source":"P-660","target":"Purshasing Manager","value":1},
+{"source":"P-660","target":"Department Manager","value":1},
+{"source":"P-660","target":"Purshasing Department","value":1},
+{"source":"P-660","target":"Receiving Department","value":1},
+{"source":"P-660","target":"Business Line Department","value":1},
+{"source":"P-660","target":"President","value":1},
+
+{"source":"P-710","target":"Sales and Marketing Manager","value":1},
+{"source":"P-710","target":"Customer Service","value":1},
+{"source":"P-710","target":"LMS Team","value":1},
+{"source":"P-710","target":"Representative","value":1},
+{"source":"P-710","target":"Project Manager","value":1},
+
+
+{"source":"P-720","target":"Operation Manager","value":1},
+{"source":"P-720","target":"LMS Team","value":1},
+{"source":"P-720","target":"Project Manager","value":1},
+
+{"source":"P-740","target":"Operation Manager","value":1},
+{"source":"P-740","target":"LMS Team","value":1},
+{"source":"P-740","target":"Quality Manager","value":1},
+{"source":"P-740","target":"Delegate","value":1},
+
+{"source":"P-755","target":"Quality Manager","value":1},
+{"source":"P-755","target":"LMS Team","value":1},
+{"source":"P-755","target":"Laboratoy Inspector","value":1},
+
+{"source":"P-780","target":"Quality Manager","value":1},
+{"source":"P-780","target":"LMS Team","value":1},
+{"source":"P-780","target":"Customer","value":1},
+
+{"source":"P-790","target":"Quality Manager","value":1},
+{"source":"P-790","target":"LMS Team","value":1},
+{"source":"P-790","target":"Customer Service","value":1},
+{"source":"P-790","target":"Project Manager","value":1},
+{"source":"P-790","target":"Employees","value":1},
+
+{"source":"P-820","target":"Quality Manager","value":1},
+{"source":"P-820","target":"LMS Team","value":1},
+{"source":"P-820","target":"Document Control Coordinator","value":1},
+{"source":"P-820","target":"Employees","value":1},
+{"source":"P-820","target":"LMS Leader","value":1},
+
+
+{"source":"P-850","target":"LMS Team","value":1},
+{"source":"P-850","target":"LMS Leader","value":1},
+
+{"source":"P-860","target":"Quality Manager","value":1},
+{"source":"P-860","target":"LMS Team","value":1},
+{"source":"P-860","target":"LMS Leader","value":1},
+{"source":"P-860","target":"Sales and Marketing Manager","value":1},
+{"source":"P-860","target":"Account Manager","value":1},
+{"source":"P-860","target":"Customer Service","value":1},
+{"source":"P-860","target":"Project Manager","value":1},
+
+{"source":"P-870","target":"Quality Manager","value":1},
+{"source":"P-870","target":"LMS Team","value":1},
+{"source":"P-870","target":"Employees","value":1},
+{"source":"P-870","target":"Managers","value":1},
+{"source":"P-870","target":"Corrective Action Coordinator","value":1},
+
+{"source":"P-880","target":"LMS Team","value":1},
+{"source":"P-880","target":"President","value":1},
+{"source":"P-880","target":"COO","value":1},
+{"source":"P-880","target":"LMS Leader","value":1},
+{"source":"P-880","target":"Audit Coordinator","value":1},
+{"source":"P-880","target":"Audit Team","value":1},
+{"source":"P-880","target":"Lead Auditor","value":1},
+{"source":"P-880","target":"Management Person","value":1},
+{"source":"P-880","target":"Employees","value":1},
+{"source":"P-880","target":"Auditor","value":1},
+
+{"source":"P-890","target":"Top Management","value":1},
+{"source":"P-890","target":"President","value":1},
+{"source":"P-890","target":"LMS Leader","value":1},
+{"source":"P-890","target":"HR Manager","value":1},
+{"source":"P-890","target":"Manufacturing Manager","value":1},
+{"source":"P-890","target":"Quality Manager","value":1},
+{"source":"P-890","target":"LMS Team","value":1},
+{"source":"P-890","target":"Delegate","value":1},
+{"source":"P-890","target":"Auditor","value":1}
+
+]
+
+}
